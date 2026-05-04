@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+venv/
+env/
+.env
+
+# 巨无霸模型文件 (千万不要传到 GitHub，免费版 GitHub 限制 100MB)
+*.pt
+best_colab.pt
+yolov8n.pt
+yolov8l.pt
+yolov8x.pt
+
+# 训练日志与结果
+runs/
+train_8x/
+
+# 几万张图片的数据集 (太大了，千万别传)
+Wire-harness-Validation-Model--1/
+datasets/
+
+# 临时产生的垃圾文件
+extracted_xlsx/
+~$*.xlsx
+.~*.xlsx
+.DS_Store
+
+# IDE 配置文件
+.vscode/
+.idea/
